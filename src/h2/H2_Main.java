@@ -12,7 +12,8 @@ public class H2_Main {
 
         boolean a = E1 && E2;
         boolean b = E1 || E3;
-        boolean c = (x && y) ? false : (x && !y) ? true : (!x && y) ? false : true;
+        boolean c = (y == false);
+        boolean c1 = (x && y) ? false : (x && !y) ? true : (!x && y) ? false : true;
 
         System.out.println("a ist: " + a);
         System.out.println("b ist: " + b);
